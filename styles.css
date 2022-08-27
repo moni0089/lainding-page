@@ -1,0 +1,183 @@
+body{
+    font-family: Roboto, sans-serif;
+    
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+li{
+    margin: 6px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+
+button{
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    width: fit-content;
+    padding: 5px 25px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    
+}
+
+.header{
+    background: #1F2937;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0px 200px 80px 200px;
+    color: white;
+ 
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/********************lower footer*******************/
+
+.introduction{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+    justify-content: center;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+.blue_button{
+    display: flex;
+    align-self: center;
+    border: none;
+}
+
+.zappa img {
+    width: 300px;
+    height: auto;
+}
+
+.zappa{
+    align-self: flex-end;
+}
+
+
+/******************* content ******************/
+
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 20px 0px 50px 0px;
+    flex-wrap: wrap;
+    width: 700px;
+    
+}
+
+.facts, img{
+    width: 300px;
+    height: 200px;
+   
+}
+.text{
+    width: 300px;
+}
+
+/*lower content*/
+
+.quote {
+    background-color: #e5e7eb;
+    left: 0;
+    right: 0;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    padding: 70px 300px;
+    margin: 150px 0px;
+}
+
+.author{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+
+}
+
+.membership{
+    background-color: #3882f6;
+    padding: 20px 100px;
+    color: white;
+    display: flex;
+    gap: 100px;
+    border-radius: 5px;
+
+}
+
+h4 {
+    margin:  0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+button.element{
+    border-color: white;
+    border-width: 1px;
+}
+
+
+/******************************footer***************************/
+
+.footer{
+    background: #1F2937;
+    color: white;
+    margin-top: 50px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+}
